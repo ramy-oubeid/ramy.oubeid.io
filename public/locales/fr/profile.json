@@ -1,0 +1,15 @@
+{
+    "name":"Nom",
+    "email":"Courriel",
+    "phone":"Telephone",
+    "location":"Location",
+    "degree":"Diplôme",
+    "experience":"Expérience",
+    "freelance":"freelance",
+    "remote":"A distance",
+    "yes.freelance": "Oui aux freelance",
+    "no.freelance": "No aux freelance",
+    "yes.remote": "Travail a distance",
+    "no.remote": "Travail a distance",
+    "description": "Je suis ingénieur logiciel avec une expertise en développement Java et en architecture de microservices. Je maîtrise parfaitement Java et JavaScript. Je parle plusieurs langues, notamment l'anglais, le français, l'arabe et le turc."
+}

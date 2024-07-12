@@ -1,0 +1,17 @@
+{
+    "welcome": "Accueil",
+    "title.about": "A propos",
+    "title.skills": "Compétences",
+    "title.works": "Travaux",
+    "title.portfolio": "Porfolio",
+    "name.about": "apropos.ts",
+    "name.skills": "Competences.ts",
+    "name.works": "Travaux.ts",
+    "name.portfolio": "Porfolio.ts",
+    "sidebar.title": "Titre",
+    "welcome.title": "Bienvenue sur mon site Portfolio!",
+    "welcome.pages": "Sayfaları görüntülemek için",
+    "welcome.search": "Pour afficher les pages",
+    "welcome.lang": "Pour changer la langue",
+    "welcome.mode": "Pour changer de mode"
+}
