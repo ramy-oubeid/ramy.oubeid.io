@@ -254,8 +254,7 @@ const Config = {
             "skill-icons:java",
             "skill-icons:testng",
             "flat-color-icons:template",
-          ],
-          img: "/projects/tiktak.jpg",
+          ]
         },
         {
           id: 2,
@@ -275,7 +274,7 @@ const Config = {
             "ReactJS",
             "Mantine",
             "Styled Component",
-            "Micro-Frontend",
+            "Microservices",
           ],
           icons: [
             "skill-icons:react-dark",
@@ -307,7 +306,7 @@ const Config = {
       icons: [
         "skill-icons:nextjs-dark",
         "skill-icons:tailwindcss-dark",
-        "skill-icons:springboot",
+        "skill-icons:spring",
         "skill-icons:kafka",
         "skill-icons:mongodb",
       ],
