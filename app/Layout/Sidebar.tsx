@@ -119,7 +119,7 @@ const Sidebar = (props: Props) => {
           onMouseLeave={() => setShowLang(false)}
         >
           <Icon
-            icon={selectedLang == "tr" ? "circle-flags:tr" : "circle-flags:gb"}
+            icon={selectedLang == "fr" ? "circle-flags:ca" : "circle-flags:ca"}
             fontSize={32}
             className={` ${
               theme === "dark"
@@ -130,8 +130,8 @@ const Sidebar = (props: Props) => {
           {showLang && (
             <div className='absolute z-50 -top-10 left-12 flex flex-col justify-center items-center p-1 rounded-md bg-dark6'>
               <Icon
-                onClick={() => changeLanguage("fr")}
-                icon={"circle-flags:ca"}
+                onClick={() => changeLanguage("fr-ca")}
+                icon={"circle-flags:fr"}
                 fontSize={32}
                 className={`mb-2 cursor-pointer hover:shadow hover:shadow-slate-300 p-1 ${
                   theme === "dark"

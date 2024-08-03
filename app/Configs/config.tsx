@@ -43,6 +43,11 @@ const Config = {
         icon: "skill-icons:javascript",
       },
       {
+        id: 2,
+        name: "Java",
+        icon: "skill-icons:java",
+      },
+      {
         id: 3,
         name: "HTML5",
         icon: "skill-icons:html",
@@ -170,7 +175,7 @@ const Config = {
   workHistories: [
     {
       id: 1,
-      job: "Software Engineer in Test",
+      job: "Senior Quality Assurance Engineer",
       company: "Telus Health",
       url: "https://ca.linkedin.com/company/telus-health",
       companyLocation: "Canada / Montreal",
@@ -178,27 +183,36 @@ const Config = {
       workEnd: "-",
       description: "description1",
       technologies: [
-        "Javascript",
+        "Insurance claim processing",
+        "Healthcare benefits management",
+          "Healthcare EDI standards",
+            "Healthcare APIs",
+            "Healthcare data exchange",
+            "Healthcare data security",
+            "Software quality assurance",
+        "Agile",
+
           "Microservices",
         "JAVA",
         "Python",
         "Selenium",
-        "spring-boot",
-        "NodeJs",
+        "BDD",
+        "API testing (Postman)",
+        "JIRA",
+        "Confluence",
+        "Jenkins",
+        "Git",
+        "Newman",
         "Weblogic",
-        "MongoDB",
-        "Docker",
-        "Kubernetes",
-        "OCP",
-          "GCP",
-          "AWS"
+        "Oracle Database"
+
 
       ],
       project: [],
     },
     {
       id: 2,
-      job: "Software Engineer",
+      job: "Software Engineer / System Administrator",
       company: "FYiDoctors",
       url: "https://ca.linkedin.com/company/fyidoctors",
       companyLocation: "Vancouver / Canada",
@@ -221,11 +235,12 @@ const Config = {
       project: [
         {
           id: 1,
-          title: "Tiktak",
-          technologies: ["NextJs", "MaterialUI", "Vuexy Template"],
+          title: "Spring-boot BDD framework for testing SOAP services",
+          technologies: ["Spring-boot", "Spring Cloud", "Cucumber", "Java", "Junit", "Mockito", "Jenkins", "Docker", "GCP", "Maven"],
           icons: [
-            "skill-icons:nextjs-dark",
-            "skill-icons:materialui-dark",
+            "skill-icons:springboot",
+            "skill-icons:java",
+            "skill-icons:testng",
             "flat-color-icons:template",
           ],
           img: "/projects/tiktak.jpg",
@@ -260,7 +275,7 @@ const Config = {
         },
         {
           id: 4,
-          title: "Talentswide",
+          title: "School System",
           technologies: ["NextJs(SSR)", "Figma Design", "Tailwindcss"],
           icons: [
             "skill-icons:nextjs-dark",
@@ -276,35 +291,35 @@ const Config = {
     {
       id: 1,
       title: "Entegrenity",
-      technologies: ["NextJs", "Tailwindcss", "Javascript", "MongoDb"],
+      technologies: ["NextJs", "Appachee Karafka", "Spring-boot", "MongoDb"],
       icons: [
         "skill-icons:nextjs-dark",
         "skill-icons:tailwindcss-dark",
-        "skill-icons:javascript",
-        "skill-icons:mongodb",
+        "skill-icons:springboot",
+          "skill-icons:kafka",
+        "skill-icons:mongodb"
       ],
       url: {
         repo: false,
         live: "https://www.entegrenity.com/",
       },
       description:
-        "Pazaryerleri API servislerini kullanarak e-ticaret işletmelerinin ürün yönetimini kolaylaştıran IMS sistemidir. Bu yazılımın amacı, eticaret işletmelerinin ürünlerini gruplayarak tek bir platformdan tüm ürünlerinin stok ve fiyat bilgilerini günvellemesidir.",
+        "This is an E-Commerce application that that I developed for an international client. The application is built using NextJs, Spring-boot, and Kafka.",
       img: "/projects/entegrenity.jpg",
     },
 
 
     {
       id: 4,
-      title: "TDK All API Package",
-      technologies: ["NPM", "Javascript"],
-      icons: ["skill-icons:npm-dark", "skill-icons:javascript"],
+      title: "AI-Selenium",
+      technologies: ["Python", "Numpy", "Pandas", "Selenium", "Jupyter Notebook", "openai API"],
+      icons: ["skill-icons:python", "skill-icons:github", "skill-icons:docker", "skill-icons:googlecloud", "skill-icons:maven"],
       url: {
-        repo: "https://github.com/halituzan/tdk-all-api",
-        live: "https://www.npmjs.com/package/tdk-all-api",
+        repo: "https://github.com/ramy-oubeid-telus/AI-Selenium",
+
       },
       description:
-        "Türk Dil Kurumu API larını kullanarak istenilen kelimenin anlamlarını JSON response olarak getiren bir npm paketi.",
-      img: "/projects/tdk.jpg",
+        ""
     }
   ],
 };
