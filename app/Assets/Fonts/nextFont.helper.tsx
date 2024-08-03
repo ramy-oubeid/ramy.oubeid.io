@@ -8,4 +8,3 @@ export const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   display: "swap",
 });
-//* multiple font kullanımı için globals.css içerisine bakın.

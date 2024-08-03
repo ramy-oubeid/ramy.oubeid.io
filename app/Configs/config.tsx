@@ -4,15 +4,15 @@ const Config = {
     //* Write the words you want to emphasize in the description in the About You section using lowercase letters.
     "springboot",
     "java",
-      "jpa",
-      "hibernate",
-      "spring",
-      "spring-boot",
-      "spring-data-jpa",
-      "spring-data-jdbc",
-      "spring-jdbc",
-      "spring-mvc",
-      "spring-web",
+    "jpa",
+    "hibernate",
+    "spring",
+    "spring-boot",
+    "spring-data-jpa",
+    "spring-data-jdbc",
+    "spring-jdbc",
+    "spring-mvc",
+    "spring-web",
     "javascript",
     "reactjs",
     "nextjs",
@@ -27,7 +27,7 @@ const Config = {
     "redux",
     "redux-toolkit",
     "e-commerce",
-    "mantin",
+    "mantine",
     "scss",
   ],
   skills: {
@@ -43,44 +43,49 @@ const Config = {
         icon: "skill-icons:javascript",
       },
       {
-        id: 2,
+        id: 3,
         name: "Java",
         icon: "skill-icons:java",
       },
       {
-        id: 3,
+        id: 4,
         name: "HTML5",
         icon: "skill-icons:html",
       },
       {
-        id: 4,
+        id: 5,
         name: "CSS3",
         icon: "skill-icons:css",
       },
       {
-        id: 5,
+        id: 6,
         name: "ReactJs",
         icon: "skill-icons:react-dark",
       },
       {
-        id: 6,
+        id: 7,
         name: "NextJs",
         icon: "skill-icons:nextjs-dark",
       },
       {
-        id: 7,
+        id: 8,
         name: "NodeJs",
         icon: "skill-icons:nodejs-dark",
       },
       {
-        id: 8,
+        id: 9,
         name: "MongoDB",
         icon: "skill-icons:mongodb",
       },
       {
-        id: 9,
+        id: 10,
         name: "Git",
         icon: "skill-icons:git",
+      },
+      {
+        id: 11,
+        name: "JIRA",
+        icon: "logos:jira",
       },
     ],
     ui: [
@@ -89,7 +94,6 @@ const Config = {
         name: "Material UI",
         icon: "skill-icons:materialui-dark",
       },
-
       {
         id: 2,
         name: "Mantine",
@@ -97,7 +101,7 @@ const Config = {
       },
       {
         id: 3,
-        name: "TwilwindCss",
+        name: "TailwindCSS",
         icon: "skill-icons:tailwindcss-dark",
       },
       {
@@ -124,7 +128,7 @@ const Config = {
       },
       {
         id: 4,
-        name: "Adobe PhotoShop",
+        name: "Adobe Photoshop",
         icon: "skill-icons:photoshop",
       },
     ],
@@ -161,7 +165,7 @@ const Config = {
     },
     {
       id: "stackoverflow",
-      name: "StackoverFlow",
+      name: "Stack Overflow",
       icon: "mdi:stackoverflow",
       url: "https://stackoverflow.com/users/10427536/ramy-oubeid",
     },
@@ -185,14 +189,13 @@ const Config = {
       technologies: [
         "Insurance claim processing",
         "Healthcare benefits management",
-          "Healthcare EDI standards",
-            "Healthcare APIs",
-            "Healthcare data exchange",
-            "Healthcare data security",
-            "Software quality assurance",
+        "Healthcare EDI standards",
+        "Healthcare APIs",
+        "Healthcare data exchange",
+        "Healthcare data security",
+        "Software quality assurance",
         "Agile",
-
-          "Microservices",
+        "Microservices",
         "JAVA",
         "Python",
         "Selenium",
@@ -204,9 +207,7 @@ const Config = {
         "Git",
         "Newman",
         "Weblogic",
-        "Oracle Database"
-
-
+        "Oracle Database",
       ],
       project: [],
     },
@@ -220,23 +221,34 @@ const Config = {
       workEnd: "2018",
       description: "description2",
       technologies: [
-        " Python",
-        " Javascript",
-        " Powershell",
-        " Bash",
-        " NodeJs",
-        " ReactJs",
-        " NextJs(SSR)",
-        " TailwindCss",
-        " MaterialUI",
-        " Mantine",
-        " Micro-Frontend",
+        "Python",
+        "Javascript",
+        "Powershell",
+        "Bash",
+        "NodeJs",
+        "ReactJs",
+        "NextJs(SSR)",
+        "TailwindCSS",
+        "MaterialUI",
+        "Mantine",
+        "Micro-Frontend",
       ],
       project: [
         {
           id: 1,
           title: "Spring-boot BDD framework for testing SOAP services",
-          technologies: ["Spring-boot", "Spring Cloud", "Cucumber", "Java", "Junit", "Mockito", "Jenkins", "Docker", "GCP", "Maven"],
+          technologies: [
+            "Spring-boot",
+            "Spring Cloud",
+            "Cucumber",
+            "Java",
+            "Junit",
+            "Mockito",
+            "Jenkins",
+            "Docker",
+            "GCP",
+            "Maven",
+          ],
           icons: [
             "skill-icons:springboot",
             "skill-icons:java",
@@ -291,36 +303,45 @@ const Config = {
     {
       id: 1,
       title: "Entegrenity",
-      technologies: ["NextJs", "Appachee Karafka", "Spring-boot", "MongoDb"],
+      technologies: ["NextJs", "Apache Kafka", "Spring-boot", "MongoDb"],
       icons: [
         "skill-icons:nextjs-dark",
         "skill-icons:tailwindcss-dark",
         "skill-icons:springboot",
-          "skill-icons:kafka",
-        "skill-icons:mongodb"
+        "skill-icons:kafka",
+        "skill-icons:mongodb",
       ],
       url: {
         repo: false,
         live: "https://www.entegrenity.com/",
       },
       description:
-        "This is an E-Commerce application that that I developed for an international client. The application is built using NextJs, Spring-boot, and Kafka.",
+          "This is an E-Commerce application that I developed for an international client. The application is built using NextJs, Spring-boot, and Kafka.",
       img: "/projects/entegrenity.jpg",
     },
-
-
     {
       id: 4,
       title: "AI-Selenium",
-      technologies: ["Python", "Numpy", "Pandas", "Selenium", "Jupyter Notebook", "openai API"],
-      icons: ["skill-icons:python", "skill-icons:github", "skill-icons:docker", "skill-icons:googlecloud", "skill-icons:maven"],
+      technologies: [
+        "Python",
+        "Numpy",
+        "Pandas",
+        "Selenium",
+        "Jupyter Notebook",
+        "openai API",
+      ],
+      icons: [
+        "skill-icons:python",
+        "skill-icons:github",
+        "skill-icons:docker",
+        "skill-icons:googlecloud",
+        "skill-icons:maven",
+      ],
       url: {
         repo: "https://github.com/ramy-oubeid-telus/AI-Selenium",
-
       },
-      description:
-        ""
-    }
+      description: "",
+    },
   ],
 };
 export default Config;

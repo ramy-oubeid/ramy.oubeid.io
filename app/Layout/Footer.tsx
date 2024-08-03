@@ -16,30 +16,27 @@ const Footer = (props: Props) => {
         <a href='https://x.com/uzandev' target='_blank' className=''>
           <img
             alt='X (formerly Twitter) Follow'
-            src='https://img.shields.io/twitter/follow/uzandev'
+            src='https://img.shields.io/twitter/follow/RamyOubeid'
           />
         </a>
-        <a href='https://github.com/halituzan' target='_blank' className='ml-2'>
+        <a href='https://github.com/ramy-oubeid-telus' target='_blank' className='ml-2'>
           <img
             alt='GitHub followers'
-            src='https://img.shields.io/github/followers/halituzan'
+            src='https://github.com/ramy-oubeid-telus'
           />
         </a>
-        <a href='https://github.com/halituzan' target='_blank' className='ml-2'>
+        <a href='https://github.com/ramy-oubeid-telus' target='_blank' className='ml-2'>
           <img
             alt="GitHub User's stars"
-            src='https://img.shields.io/github/stars/halituzan'
+            src='https://github.com/ramy-oubeid-telu'
           />
         </a>
         <a
-          href='https://wakatime.com/@3624ae8f-b305-4c12-b620-3e5fb952fbe2'
+          href='https://github.com/ramy-oubeid-telu'
           target='_blank'
           className='ml-2'
         >
-          <img
-            src='https://wakatime.com/badge/user/3624ae8f-b305-4c12-b620-3e5fb952fbe2.svg'
-            alt='Total time coded since Jun 10 2023'
-          />
+
         </a>
       </div>
     </div>
