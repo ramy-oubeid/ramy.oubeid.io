@@ -1,9 +1,11 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     output: 'export',
-    // Add any other configurations you might need. For example, if deploying to GitHub Pages:
-    basePath: '/[gh-pages]',
-    assetPrefix: '/[gh-pages]/',
-    images : {
-        unoptimized: true
-    }
+    basePath: '/ramy.oubeid.io',
+    assetPrefix: '/ramy.oubeid.io/',
+    images: {
+        unoptimized: true,
+    },
 };
+
+export default nextConfig;
