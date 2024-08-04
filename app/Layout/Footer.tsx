@@ -13,7 +13,7 @@ const Footer = (props: Props) => {
     <div className={`w-full h-7 px-1 flex ${footerBg}`}>
       {/* <div>VS</div> */}
       <div className='ml-1 hidden md:flex items-center'>
-        <a href='https://x.com/uzandev' target='_blank' className=''>
+        <a href='https://x.com/roubeid' target='_blank' className=''>
           <img
             alt='X (formerly Twitter) Follow'
             src='https://img.shields.io/twitter/follow/RamyOubeid'
@@ -28,7 +28,7 @@ const Footer = (props: Props) => {
         <a href='https://github.com/ramy-oubeid-telus' target='_blank' className='ml-2'>
           <img
             alt="GitHub User's stars"
-            src='https://github.com/ramy-oubeid-telu'
+            src='https://img.shields.io/github/followers/Steelfri.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Steelfri?tab=followers'
           />
         </a>
         <a
