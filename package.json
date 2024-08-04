@@ -11,6 +11,11 @@
     "predeploy": "npm run export",
     "deploy": "gh-pages -d out"
   },
+
+  "scripts": {
+    "deploy": "next build && next export && gh-pages -d out"
+  },
+
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "@types/redux-logger": "^3.0.13",
