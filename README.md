@@ -5,7 +5,7 @@
 It is a software developer portfolio site designed based on the VS Code editor. Created with Next.js 14.2.3 Version. Information is added statically inside. There is no database connection.
 
 ## 1. Language Configuration
-Multi-language configuration has been added to the theme with i18n. There are two different languages available: Turkish and English. In addition to these languages, you can also add your own languages. The infrastructure for RTL languages such as Arabic is not currently available. However, you can also do your own language optimization by forking. I am waiting for your support for RTL languages.
+Multi-language configuration has been added to the theme with i18n. There are two different languages available: French and English. In addition to these languages, you can also add your own languages. The infrastructure for RTL languages such as Arabic is not currently available. However, you can also do your own language optimization by forking. I am waiting for your support for RTL languages.
 
 Configuring the language configuration is very easy. While you can separate language files for each of your components, you can also provide this control from a single file.
 
@@ -17,8 +17,8 @@ Example:
 ```
 // public/locales/tr/skills.json
 {
-    "title.software": "Yazılım Teknolojileri",
-    "title.ui": "UI ve CSS Kütüphaneleri",
+    "title.software": "Ramy Technology",
+    "title.ui": "UI ammd CSS",
     "title.design": "Tasarım Programları"
 }
 // public/locales/en/skills.json
